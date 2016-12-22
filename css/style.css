@@ -3,64 +3,72 @@ html, body {
 	width: 100%;
 	}
 
+body {
+	background-image: url("backgroundimg.jpg") ;
+}	
+
 .nav {
 	background-color: grey;
 	border-radius: 5px;
-	padding: 20px;
-	width: 90%;
-	margin: 10px;
+	padding: 20px 55px;
+	width: 95%; 
+	margin: 10px 0px;
+	height: 66%;
+	padding-right: 0px;
+	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
+}
+
+h1 {
+	position: inline-block;
+}
+
+a {
+	text-align: right;
+	text-decoration: none;
+	color: black;
 }
 
 #contact-info {
 	height: 300px;
 	background-color: grey;
 	border-radius: 5px;
-	width: 45%;
+	width: 33%;
 	margin: 5px;
 	text-align: center;
 	padding-top: 20px;
+	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
 }
 
 #contact-form {
 	height: 300px;
 	background-color: grey;
 	border-radius: 5px;
-	width: 45%;
+	width: 64%;
 	margin: 5px;
 	text-align: center;
 	padding-top: 20px;
+	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
+}
+
+#holder {
+	height: 300px;
+	background-color: grey;
+	border-radius: 5px;
+	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
+	width: 40%;
+	margin: 10px;
+}
+
+#copy {
+	height: 300px;
+	background-color: grey;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
+	width: 50%;
+	margin-left: 500px;
 }
 
 input {
 	margin: 5px;
-}
-
-nav a {
-	text-align: right;
-	text-decoration: none;
-	color: black;
-}
-
-#wrap {min-height: 100%;
-	width: 100%;
-}
-
-#main {overflow:auto;
-	padding-bottom: 150px;
-
-}  /* must be same height as the footer */
-
-#footer {position: relative;
-	margin-top: -150px; /* negative value of footer height */
-	height: 150px;
-	clear:both;
-} 
-
-/*Opera Fix*/
-body:before {
-	content:"";
-	height:100%;
-	float:left;
-	width:0;
-	margin-top:-32767px;/
 }
