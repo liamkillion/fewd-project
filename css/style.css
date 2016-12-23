@@ -38,7 +38,7 @@ a {
 	width: 33%;
 	margin: 5px;
 	text-align: center;
-	padding-top: 20px;
+	padding: 45px 0px;
 	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
 }
 
@@ -56,8 +56,10 @@ a {
 	background-color: grey;
 	border-radius: 5px;
 	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
-	width: 40%;
+	width: 30%;
 	margin: 10px;
+	margin-top: 200px;
+	position: absolute;
 }
 
 #copy {
@@ -65,9 +67,11 @@ a {
 	border-radius: 5px;
 	text-align: center;
 	box-shadow: 11px 10px 5px -4px rgba(0,0,0,0.62);
-	width: 50%;
-	margin-left: 500px;
+	width: 60%;
 	padding: 20px;
+	position: relative;
+	left: 400px;
+	margin-top: 200px;
 }
 
 input {
